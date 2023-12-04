@@ -11,7 +11,7 @@ describe('Teste do Povo Online', () => {
     testePovoOnline.aplicarFiltroNaBusca();
   });
 
-  it.skip('Visitar página de um dos cadernos de Esportes', () => {
+  it('Visitar página de um dos cadernos de Esportes', () => {
     testePovoOnline.visitarPaginaEsportes();
   });
 

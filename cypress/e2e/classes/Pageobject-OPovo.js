@@ -38,6 +38,12 @@ export class PageObjectOPovo {
     }
   
     visitarPaginaEsportes() {
+      /*
+        Nesse teste há um problema no site onde ao acessar 
+        https://www.opovo.com.br/, o cypress não reconhece que a pagina esta
+        carregada lançando uma exceção
+      */
+
       cy.viewport(1500, 1200);
       cy.visit('https://www.opovo.com.br/', {
         headers: {
